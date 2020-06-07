@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>jwt.demo.passport</name>
+    </assembly>
+    <members>
+        <member name="M:jwt.demo.passport.Controllers.AccountController.Login(jwt.demo.model.Dto.LoginRequestDTO)">
+            <summary>
+            登录
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:jwt.demo.passport.Controllers.BaseApiController.ResponseOk(System.Object)">
+            <summary>
+            返回接口调用成功的响应
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:jwt.demo.passport.Controllers.BaseApiController.ResponseOk``1(``0)">
+            <summary>
+            返回接口调用成功的响应
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="P:jwt.demo.passport.ViewModel.Response.LoginVM.Token">
+            <summary>
+            access token
+            </summary>
+        </member>
+        <member name="P:jwt.demo.passport.ViewModel.Response.LoginVM.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:jwt.demo.passport.ViewModel.Response.LoginVM.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+    </members>
+</doc>
